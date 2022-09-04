@@ -22,6 +22,6 @@
     Implementation:
         *   Selection of elemetns using querySelector
         *   Reverse the string function using split().reverse().join() methods
-        *   Palindrome check functions, taking the 6 different variation of the date formats and check for palindrome using the helper functions
+        *   Palindrome check functions, taking the 6 different variation of the date formats and check
         *   Wrote the function to find the next palindrome date which nearest in the future date
         *   Link the clickHandler function to the palindrome check button
