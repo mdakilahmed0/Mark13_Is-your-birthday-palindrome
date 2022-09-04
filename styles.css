@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #212b28;
+  background-color: #276967;
+}
+
+.container {
+  border: 3px solid;
+  border-radius: 10px;
+  box-shadow: 8px 6px 8px #888888;
+}
+
+.header-text {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 2.5rem;
+  text-decoration: underline;
+  font-family: sans-serif;
+}
+
+.header-lead {
+  font-size: 22px;
+  width: 90%;
+  font-style: italic;
+  margin: auto;
+  color: yellowgreen;
+}
+
+.header-sub-lead {
+  font-size: medium;
+  width: 80%;
+  font-style: italic;
+}
+
+div {
+  display: block;
+  width: 50%;
+  margin: 3rem auto 1rem;
+  text-align: center;
+}
+
+div h2 {
+  font-size: xx-large;
+}
+
+div p {
+  width: 90%;
+  margin: 10px auto;
+  text-align: center;
+}
+
+/* div label {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    font-size: x-large;
+    
+} */
+
+div input {
+  padding: 15px;
+  border-radius: 10px;
+  width: 80%;
+  font-size: x-large;
+  box-shadow: 2px 2px 1px #888888;
+  color: antiquewhite;
+}
+
+div button {
+  width: 50%;
+  margin: auto;
+  padding: 6px 5px;
+  border-radius: 10px;
+  box-shadow: 2px 3px 1px #888888;
+  text-align: center;
+  font-size: x-large;
+}
+
+div button:hover {
+  background-color: #174d4a;
+}
+
+#output {
+  height: auto;
+  font-size: xx-large;
+  color: antiquewhite;
+  width: 60%;
+  border-radius: 10px;
+  margin: 2rem auto;
+  box-shadow: 2px 3px 1px #888888;
+}

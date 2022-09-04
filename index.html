@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>birthday-palindrome</title>
+</head>
+
+<body>
+    <h2 class="header-text">Birthday Palindrome Checker</h2>
+    <div class="container">
+        <div>
+            <h2>Is your birthday palindrome?</h2>
+        </div>
+        <div class="header-lead">
+            <p>
+                Your birthdate is checked in 6 formats: <br />
+                mmddyyyy, ddmmyyyy, yyyymmdd, mmddyy, ddmmyy, and yyddmm
+            </p>
+            <div class="header-sub-lead">
+                <p>
+                    Example: If your birthdate is 10th January 1997, then the app will
+                    check for: 01101997, 10011997 , 19970110, 011097, 100197, 971001
+                </p>
+            </div>
+        </div>
+        <div>
+            <!-- <label for="dob-input">Enter your date of birth:</label> -->
+            <input type="text" placeholder="Enter your date of birth..." id="date-of-birth"
+                onfocus="(this.type='date')" />
+        </div>
+        <div>
+            <button id="palindrome-check-btn">Check</button>
+        </div>
+        <div id="output"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
